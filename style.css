@@ -129,4 +129,8 @@ footer{
 .nowrap{
   white-space: nowrap;
 }
+footer{
+  display: flex;
+  flex-direction: column;
+}
 }
