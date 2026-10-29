@@ -28,8 +28,8 @@ try{
 // 2. Separate WhatsApp chat - does NOT interfere with form
 document.getElementById('whatsappBtn').addEventListener('click', (e)=>{
 e.preventDefault();
-let name = document.getElementById('name').value || "there";
+let name = document.getElementById('name').value || "";
 let msg = document.getElementById('message').value || "I want to discuss a website project";
-let text = `Hi Kunmi! I'm ${name}. ${msg} — from your portfolio`;
+let text = `Hi Kunmi! ${name}. ${msg} — Ref: Webpage`;
 window.open(`https://wa.me/${myNumber}?text=${encodeURIComponent(text)}`, '_blank');
 });

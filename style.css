@@ -103,6 +103,11 @@ input,select,textarea{
   width:100%;
 }
 
+#whatsappBtn{ transition: .3s ease-in-out;}
+
+#whatsappBtn:hover{ 
+  border: 6px solid var(--gold);
+}
 footer{
   text-align:center;
   padding:30px;
@@ -135,4 +140,3 @@ footer{
   flex-direction: column;
 }
 }
-#whatsappBtn:hover{ color: white;}
