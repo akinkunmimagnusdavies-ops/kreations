@@ -3,54 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kunmi — Web Developer | Kreations</title>
+<title>Kreations — Front End Web Developer | Kreations</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
- <h1>Hi, I'm <span>Kunmi</span> —</h1>
- <p>I build fast websites for Lagos businesses that convert visitors to direct bookings. <br> HTML, CSS, Tailwindcss & JavaScript.</p>
- <a class="btn" href="#contact">Hire Me</a>
+<h1>Hi, I'm <span>Kunmi</span> —</h1>
+<p>I build fast and affordable websites that convert visitors to direct bookings. <br> HTML, CSS, Tailwindcss & JavaScript.</p>
+<a class="btn" href="#contact">Hire Me</a>
 </header>
 
 <section>
- <h2>Projects</h2>
- <div class="grid">
+<h2>Projects</h2>
+<div class="grid">
+  <div class="card">
+      <h3>Nail Studio Template</h3>
+     <ol>
+        <li>• Home Page</li>
+        <li>• Academy Page</li>
+        <li>• Product Catalogue</li>
+        <li>• Add to Cart</li>
+        <li>• Checkout</li>
+        <li>• Select Service</li>
+        <li>• Booking Form</li>
+        <li>• ☰ Menu on Mobile</li>
+      </ol>
+      <a href="https://kreationsnail.vercel.app" target="_blank">View Live →</a>
+    </div>
     <div class="card">
       <h3>Cosmetic Shop Template</h3>
       <ol>
-        <li>• Booking Form</li>
-        <li>• Select Service</li>
+        <li>• Product Catalogue</li>
         <li>• Add to Cart</li>
         <li>• Checkout</li>
+        <li>• Contact Form</li>
         <li>• ☰ Menu on Mobile</li>
         <li>• Paystack Payment Integration</li>
-        
-       <!--  <li>• Privacy Policy Page</li> -->
       </ol>
       <a href="https://makeuptmp.vercel.app" target="_blank">View Live →</a>
     </div>
     <div class="card">
       <h3>Makeover Studio Template</h3>
       <ol>
-        <li>• Booking Form</li>
-        <li>• Select Service</li>
+        <li>• Product Catalogue</li>
         <li>• Add to Cart</li>
         <li>• Checkout</li>
+        <li>• Select Service</li>
+        <li>• Booking Form</li>
         <li>• ☰ Menu on Mobile</li>
-       <!--  <li>• Privacy Policy Page</li> -->
       </ol>
       <a href="https://makeuptemp.vercel.app" target="_blank">View Live →</a>
     </div>
     <div class="card">
       <h3>Makeover Studio Template</h3>
       <ol>
-        <li>• Booking Form</li>
-        <li>• Select Service</li>
+        <li>• Product Catalogue</li>
         <li>• Add to Cart</li>
         <li>• Checkout</li>
+        <li>• Select Service</li>
+        <li>• Booking Form</li>
         <li>• ☰ Menu on Mobile</li>
-       <!--  <li>• Privacy Policy Page</li> -->
       </ol>
       <a href="https://kreationsmakeover.vercel.app" target="_blank">View Live →</a>
     </div>
@@ -59,10 +71,7 @@
       <ol>
         <li>• Booking Form</li>
         <li>• Select Service</li>
-        <!-- <li>• Add to Cart</li> -->
-        <!-- <li>• Checkout</li> -->
         <li>• ☰ Menu on Mobile</li>
-       <!--  <li>• Privacy Policy Page</li> -->
       </ol>
       <a href="https://kbbshop.vercel.app" target="_blank">View Live →</a>
     </div>
@@ -74,21 +83,8 @@
         <li>• Add to Cart</li>
         <li>• Checkout</li>
         <li>• ☰ Menu on Mobile</li>
-       <!--  <li>• Privacy Policy Page</li> -->
       </ol>
       <a href="https://gas-k-mag.vercel.app" target="_blank">View Live →</a>
-    </div>
-    <div class="card">
-      <h3>Nail Studio Template</h3>
-     <ol>
-        <li>• Booking Form</li>
-        <li>• Select Service</li>
-        <li>• Add to Cart</li>
-        <li>• Checkout</li>
-        <li>• ☰ Menu on Mobile</li>
-       <!--  <li>• Privacy Policy Page</li> -->
-      </ol>
-      <a href="https://kreationsnail.vercel.app" target="_blank">View Live →</a>
     </div>
     <div class="card">
       <h3>Restaurant Landing</h3>
@@ -100,49 +96,32 @@
       <p style="color:#aaa;">Coming soon — Add yours here</p>
       <a href="" target="_blank">View Code →</a>
       </div>
-  </div> 
+  </div>
 </section>
 
 <section id="contact">
- <h2>Contact Me</h2>
- <form id="portfolioForm" action="https://formspree.io/f/YOUR_ID" method="POST">
+<h2>Contact Me</h2>
+<form id="portfolioForm" action="https://formspree.io/f/mrpbqwgw" method="POST">
   <input type="text" name="name" id="name" placeholder="Your Name" required>
   <input type="email" name="email" placeholder="Your Email" required>
   <textarea name="message" id="message" rows="4" placeholder="Project details..." required></textarea>
-  <button class="btn" type="submit" id="bookBtn" style="border:none;cursor:pointer">Send Message</button>
-  <p id="formStatus" style="display:none;text-align:center"></p>
- </form>
+ 
+  <button class="btn" type="submit" id="bookBtn" style="border:none;cursor:pointer;width:100%">Submit Message</button>
+  <p id="formStatus" style="display:none;text-align:center;margin-top:10px"></p>
+</form>
+
+<!-- WhatsApp button -->
+<div style="text-align:center; margin-top:150px;">
+  <p style="color:#aaa; margin-bottom:5px;">Or prefer quick chat?</p>
+  <a id="whatsappBtn" class="btn" href="#" style="background:#3ff128; display:inline-block; text-decoration:none;">
+    Chat with me directly on WhatsApp
+  </a>
+</div>
 </section>
 
 <footer>
- © 2026 Kreations — Lagos | Nigeria <i>• 0806 818 9103</i>
+© 2026 Kreations — Lagos | Nigeria <i>• 09156002887</i>
 </footer>
-
-<script>
-const form = document.getElementById('portfolioForm');
-const status = document.getElementById('formStatus');
-const myNumber = "2349156002887"; // YOUR WhatsApp
-
-form.addEventListener("submit", async (e)=>{
- e.preventDefault();
- let name = document.getElementById('name').value;
- let msg = document.getElementById('message').value;
- let isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <=768;
-
- if(isMobile){
-  let text = `Hi! I'm ${name}. ${msg} — from your portfolio`;
-  window.open(`https://wa.me/${myNumber}?text=${encodeURIComponent(text)}`,'_blank');
-  status.style.display="block"; status.style.color="#25D366"; status.textContent="Opening WhatsApp...";
- } else {
-  let btn=document.getElementById('bookBtn'); btn.textContent="Sending..."; btn.disabled=true;
-  let data=new FormData(form);
-  try{
-   let res=await fetch(form.action,{method:form.method,body:data,headers:{'Accept':'application/json'}});
-   if(res.ok){ window.location.href=`thank-you.html?name=${encodeURIComponent(name)}`; }
-  } catch{ status.style.display="block"; status.style.color="red"; status.textContent="Failed. WhatsApp me."; btn.textContent="Send Message"; btn.disabled=false; }
- }
-});
-</script>
-
+<script src="js/main.js"></script>
 </body>
 </html>
